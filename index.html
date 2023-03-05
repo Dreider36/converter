@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = 'ua'>
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d29fb87f9a.js" crossorigin="anonymous"></script>
+    <script src = 'js/script.js' defer></script>
+
+    <title>Changer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="change_currency">
+            <i class="fa-solid fa-right-left btn swap-btn"></i>
+        </div>
+        <select class="js-base-selector">
+            <option value="uah">UAH</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="pln">PLN</option>
+        </select>
+        <input class="js-value-input" type="number" min="0">
+        <select class="js-currency-selector">
+            <option value="uah">UAH</option>
+            <option value="usd" selected>USD</option>
+            <option value="eur">EUR</option>
+            <option value="pln">PLN</option>
+        </select>
+            <div class="js-output"></div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/converter.js"></script>
+</body>
+</html>
